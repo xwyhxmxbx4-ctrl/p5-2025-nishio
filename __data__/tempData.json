@@ -1,0 +1,409 @@
+{
+  "data": [
+    {
+      "dataType": "javascript",
+      "bodyData": {
+        "document": {
+          "savedAt": "11/11/2025, 11:28:40 AM",
+          "sources": [
+            {
+              "fileExtension": "js",
+              "filename": "sketch.js",
+              "content": "// 小手調べ\r\nfunction setup(){\r\n  createCanvas(100, 100);\r\n  noFill();\r\n  for(let i = 0; i < 10; i++){\r\n    // BLANK[1] 条件分岐を使って、前半は赤、後半は青で円を描こう\r\n  }\r\n}\r\nellipse(50, 50, 0.1, 1)\r\n\r\n\r\nstroke(255, 0, 0);\r\nstroke(0, 0, 255);\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "dataType": "javascript",
+      "bodyData": {
+        "document": {
+          "savedAt": "11/11/2025, 11:28:49 AM",
+          "sources": [
+            {
+              "fileExtension": "js",
+              "filename": "sketch.js",
+              "content": "// 小手調べ\r\nfunction setup(){\r\n  createCanvas(100, 100);\r\n  noFill();\r\n  for(let i = 0; i < 10; i++){\r\n    // BLANK[1] 条件分岐を使って、前半は赤、後半は青で円を描こう\r\n  }\r\n}\r\nellipse(50, 50, 0.1,1)\r\n\r\n\r\nstroke(255, 0, 0);\r\nstroke(0, 0, 255);\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "dataType": "javascript",
+      "bodyData": {
+        "document": {
+          "savedAt": "11/18/2025, 11:46:47 AM",
+          "sources": [
+            {
+              "fileExtension": "js",
+              "filename": "sketch.js",
+              "content": "// 最終課題を制作しよう\r\n\r\nfunction setup(){\r\n  createCanvas(windowWidth, windowHeight);\r\n}\r\n\r\nfunction draw(){\r\n  background(160, 192, 255);\r\n}\r\n\r\nfunction windowResized(){\r\n  resizeCanvas(windowWidth, windowHeight);\r\n}\r\n"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "dataType": "javascript",
+      "bodyData": {
+        "document": {
+          "savedAt": "11/18/2025, 11:46:47 AM",
+          "sources": [
+            {
+              "fileExtension": "js",
+              "filename": "sketch.js",
+              "content": "// 最終課題を制作しよう\r\n\r\nfunction setup(){\r\n  createCanvas(windowWidth, windowHeight);\r\n}\r\n\r\nfunction draw(){\r\n  background(160, 192, 255);\r\n}\r\n\r\nfunction windowResized(){\r\n  resizeCanvas(windowWidth, windowHeight);\r\n}\r\n"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "dataType": "javascript",
+      "bodyData": {
+        "document": {
+          "savedAt": "11/18/2025, 12:03:59 PM",
+          "sources": [
+            {
+              "fileExtension": "js",
+              "filename": "sketch.js",
+              "content": "// 最終課題を制作しよう\r\n\r\nfunction setup(){\r\n  createCanvas(windowWidth, windowHeight);\r\n}\r\n\r\nfunction draw(){\r\n  background(160, 192, 255);\r\n}\r\n\r\nfunction windowResized(){\r\n  resizeCanvas(windowWidth, windowHeight)\r\n}\r\nfunction setup(){\r\n  createCanvas(100, 100);\r\n  for(let i = 0; i < 10; i++){\r\n    let size = (i + 1) * 10;\r\n    noFill();\r\n    if(i < 5){\r\n      stroke(0, 0, 255); // 青\r\n    } else {\r\n      stroke(255, 0, 0); // 赤\r\n    }\r\n    ellipse(50, 50, size, size);\r\n  }\r\n}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "dataType": "javascript",
+      "bodyData": {
+        "document": {
+          "savedAt": "11/18/2025, 12:07:47 PM",
+          "sources": [
+            {
+              "fileExtension": "js",
+              "filename": "sketch.js",
+              "content": "// 最終課題を制作しよう\r\n\r\nfunction setup(){\r\n  createCanvas(windowWidth, windowHeight);\r\n}\r\n\r\nfunction draw(){\r\n  background(160, 192, 255);\r\n}\r\n\r\nfunction windowResized(){\r\n  resizeCanvas(windowWidth, windowHeight)\r\n}\r\nconst cycle = 100; // 1周期のフレーム数（定数）\r\nlet count = 0; // 現在のフレーム数（変数）\r\nlet size = 50;\r\n\r\nfunction setup() {\r\n  createCanvas(200, 200);\r\n}\r\n\r\nfunction draw() {\r\n  background(160, 192, 255);\r\n  count = (count + 1) % cycle;\r\n  if (keyIsPressed) {\r\n    count = (count + 2) % cycle;\r\n  }\r\n  if (count < cycle / 2) {\r\n    size = 50 + cycle - count;\r\n  } else {\r\n    size = 50 + count;\r\n  }\r\n  ellipse(width / 2, height / 2, size, size);\r\n}\r\n}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "dataType": "javascript",
+      "bodyData": {
+        "document": {
+          "savedAt": "11/18/2025, 12:10:47 PM",
+          "sources": [
+            {
+              "fileExtension": "js",
+              "filename": "sketch.js",
+              "content": "// 最終課題を制作しよう\r\n\r\nfunction setup(){\r\n  createCanvas(windowWidth, windowHeight);\r\n}\r\n\r\nfunction draw(){\r\n  background(160, 192, 255);\r\n}\r\n\r\nfunction windowResized(){\r\n  resizeCanvas(windowWidth, windowHeight)\r\n}\r\n\r\n\r\nfunction setup() {\r\n  createCanvas(200, 200);\r\n  const cycle = 100; // 1周期のフレーム数（定数）\r\n  let count = 0; // 現在のフレーム数（変数）\r\n  let size = 50;\r\n}\r\n\r\nfunction draw() {\r\n  background(160, 192, 255);\r\n  count = (count + 1) % cycle;\r\n  if (keyIsPressed) {\r\n    count = (count + 2) % cycle;\r\n  }\r\n  if (count < cycle / 2) {\r\n    size = 50 + cycle - count;\r\n  } else {\r\n    size = 50 + count;\r\n  }\r\n  ellipse(width / 2, height / 2, size, size);\r\n}\r\n}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "dataType": "javascript",
+      "bodyData": {
+        "document": {
+          "savedAt": "11/18/2025, 12:11:32 PM",
+          "sources": [
+            {
+              "fileExtension": "js",
+              "filename": "sketch.js",
+              "content": "// 最終課題を制作しよう\r\n\r\nfunction draw(){\r\n  background(160, 192, 255);\r\n}\r\n\r\nconst cycle = 100; // 1周期のフレーム数（定数）\r\nlet count = 0; // 現在のフレーム数（変数）\r\nlet size = 50;\r\n\r\nfunction setup() {\r\n  createCanvas(200, 200);\r\n}\r\n\r\nfunction draw() {\r\n  background(160, 192, 255);\r\n  count = (count + 1) % cycle;\r\n  if (keyIsPressed) {\r\n    count = (count + 2) % cycle;\r\n  }\r\n  if (count < cycle / 2) {\r\n    size = 50 + cycle - count;\r\n  } else {\r\n    size = 50 + count;\r\n  }\r\n  ellipse(width / 2, height / 2, size, size);\r\n}\r\n}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "dataType": "javascript",
+      "bodyData": {
+        "document": {
+          "savedAt": "11/18/2025, 12:11:37 PM",
+          "sources": [
+            {
+              "fileExtension": "js",
+              "filename": "sketch.js",
+              "content": "// 最終課題を制作しよう\r\n\r\nfunction draw(){\r\n  background(160, 192, 255);\r\n}\r\n\r\nconst cycle = 100; // 1周期のフレーム数（定数）\r\nlet count = 0; // 現在のフレーム数（変数）\r\nlet size = 50;\r\n\r\nfunction setup() {\r\n  createCanvas(200, 200);\r\n}\r\n\r\nfunction draw() {\r\n  background(160, 192, 255);\r\n  count = (count + 1) % cycle;\r\n  if (keyIsPressed) {\r\n    count = (count + 2) % cycle;\r\n  }\r\n  if (count < cycle / 2) {\r\n    size = 50 + cycle - count;\r\n  } else {\r\n    size = 50 + count;\r\n  }\r\n  ellipse(width / 2, height / 2, size, size);\r\n}\r\n}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "dataType": "javascript",
+      "bodyData": {
+        "document": {
+          "savedAt": "11/18/2025, 12:11:42 PM",
+          "sources": [
+            {
+              "fileExtension": "js",
+              "filename": "sketch.js",
+              "content": "// 最終課題を制作しよう\r\n\r\nfunction draw(){\r\n  background(160, 192, 255);\r\n}\r\n\r\nconst cycle = 100; // 1周期のフレーム数（定数）\r\nlet count = 0; // 現在のフレーム数（変数）\r\nlet size = 50;\r\n\r\nfunction setup() {\r\n  createCanvas(200, 200);\r\n}\r\n\r\nfunction draw() {\r\n  background(160, 192, 255);\r\n  count = (count + 1) % cycle;\r\n  if (keyIsPressed) {\r\n    count = (count + 2) % cycle;\r\n  }\r\n  if (count < cycle / 2) {\r\n    size = 50 + cycle - count;\r\n  } else {\r\n    size = 50 + count;\r\n  }\r\n  ellipse(width / 2, height / 2, size, size);\r\n}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "dataType": "javascript",
+      "bodyData": {
+        "document": {
+          "savedAt": "11/18/2025, 12:12:03 PM",
+          "sources": [
+            {
+              "fileExtension": "js",
+              "filename": "sketch.js",
+              "content": "// 最終課題を制作しよう\r\nconst cycle = 100; // 1周期のフレーム数（定数）\r\nlet count = 0; // 現在のフレーム数（変数）\r\nlet size = 50;\r\n\r\nfunction setup() {\r\n  createCanvas(200, 200);\r\n}\r\n\r\nfunction draw() {\r\n  background(160, 192, 255);\r\n  count = (count + 1) % cycle;\r\n  if (keyIsPressed) {\r\n    count = (count + 2) % cycle;\r\n  }\r\n  if (count < cycle / 2) {\r\n    size = 50 + cycle - count;\r\n  } else {\r\n    size = 50 + count;\r\n  }\r\n  ellipse(width / 2, height / 2, size, size);\r\n}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "dataType": "",
+      "bodyData": {
+        "document": {
+          "savedAt": "11/23/2025, 1:25:13 PM",
+          "sources": [
+            {
+              "fileExtension": "",
+              "filename": "sketch.js",
+              "content": "// 最終課題を制作しよう\r\nconst cycle = 100; // 1周期のフレーム数（定数）\r\nlet count = 0; // 現在のフレーム数（変数）\r\nlet size = 50;\r\n\r\nfunction setup() {\r\n  createCanvas(200, 200);\r\n}\r\n\r\nfunction draw() {\r\n  background(160, 192, 255);\r\n  count = (count + 1) % cycle;\r\n  if (keyIsPressed) {\r\n    count = (count + 2) % cycle;\r\n  }\r\n  if (count < cycle / 2) {\r\n    size = 50 + cycle - count;\r\n  } else {\r\n    size = 50 + count;\r\n  }\r\n  ellipse(width / 2, height / 2, size, s"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "dataType": "javascript",
+      "bodyData": {
+        "document": {
+          "savedAt": "11/23/2025, 1:25:17 PM",
+          "sources": [
+            {
+              "fileExtension": "js",
+              "filename": "sketch.js",
+              "content": "// 最終課題を制作しよう\r\n<!DOCTYPE html>\r\n<html>\r\n<head>\r\n  <meta charset=\"UTF-8\">\r\n  <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js\"></script>\r\n</head>\r\n<body>\r\n<script>\r\n\r\nfunction setup() {\r\n  createCanvas(400, 400);\r\n  background(255);\r\n\r\n  // 20回だけ図形を描く\r\n  for (let i = 0; i < 20; i++) {\r\n\r\n    // ランダムな位置と色\r\n    fill(random(255), random(255), random(255));\r\n    let x = random(width);\r\n    let y = random(height);\r\n\r\n    // ランダムに丸か四角\r\n    if (random(1) < 0.5) {\r\n      circle(x, y, 40);\r\n    } else {\r\n      rect(x, y, 40, 40);\r\n    }\r\n  }\r\n}\r\n\r\n</script>\r\n</body>\r\n</html>\r\n"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "dataType": "javascript",
+      "bodyData": {
+        "document": {
+          "savedAt": "11/23/2025, 1:27:13 PM",
+          "sources": [
+            {
+              "fileExtension": "js",
+              "filename": "sketch.js",
+              "content": "// 最終課題を制作しよ\r\n<!DOCTYPE html>\r\n<html>\r\n<head>\r\n  <meta charset=\"UTF-8\">\r\n  <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js\"></script>\r\n</head>\r\n<body>\r\n<script>\r\n\r\nfunction setup() {\r\n  createCanvas(400, 400);\r\n}\r\n\r\nfunction draw() {\r\n  background(255);\r\n\r\n  for (let i = 0; i < 20; i++) {\r\n    fill(random(255), random(255), random(255));\r\n\r\n    let x = random(width);\r\n    let y = random(height);\r\n\r\n    if (random(1) < 0.5) {\r\n      circle(x, y, 40);\r\n    } else {\r\n      rect(x, y, 40, 40);\r\n    }\r\n  }\r\n}\r\n\r\n</script>\r\n</body>\r\n</html>\r\n"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "dataType": "javascript",
+      "bodyData": {
+        "document": {
+          "savedAt": "11/23/2025, 1:33:52 PM",
+          "sources": [
+            {
+              "fileExtension": "js",
+              "filename": "sketch.js",
+              "content": "// 最終課題を制作しよう\r\n<!DOCTYPE html>\r\n<html>\r\n<head>\r\n  <meta charset=\"UTF-8\">\r\n  <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js\"></script>\r\n</head>\r\n<body>\r\n<script>\r\n\r\nfunction setup() {\r\n  createCanvas(400, 400);\r\n  background(255);\r\n\r\n  for (let i = 0; i < 20; i++) {\r\n    fill(random(255), random(255), random(255));\r\n\r\n    let x = random(width);\r\n    let y = random(height);\r\n\r\n    if (random(1) < 0.5) {\r\n      circle(x, y, 40);\r\n    } else {\r\n      rect(x, y, 40, 40);\r\n    }\r\n  }\r\n}\r\n\r\nfunction draw() {\r\n  // 何もしない（描いたものを残す）\r\n}\r\n\r\n</script>\r\n</body>\r\n</html>\r\n\r\n"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "dataType": "javascript",
+      "bodyData": {
+        "document": {
+          "savedAt": "11/23/2025, 1:37:01 PM",
+          "sources": [
+            {
+              "fileExtension": "js",
+              "filename": "sketch.js",
+              "content": "// 小手調べ\r\n<!DOCTYPE html>\r\n<html>\r\n<body>\r\n<canvas id=\"c\" width=\"400\" height=\"400\"></canvas>\r\n<script>\r\n  let ctx = document.getElementById(\"c\").getContext(\"2d\");\r\n  ctx.fillStyle = \"black\";\r\n  ctx.fillRect(50, 50, 100, 100);\r\n</script>\r\n</body>\r\n</html>\r\n\r\n  \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "dataType": "javascript",
+      "bodyData": {
+        "document": {
+          "savedAt": "11/23/2025, 1:37:41 PM",
+          "sources": [
+            {
+              "fileExtension": "html",
+              "filename": "index.html",
+              "content": "<!DOCTYPE html>\r\n<html>\r\n<body>\r\n<canvas id=\"c\" width=\"400\" height=\"400\"></canvas>\r\n<script>\r\n  let ctx = document.getElementById(\"c\").getContext(\"2d\");\r\n  ctx.fillStyle = \"black\";\r\n  ctx.fillRect(50, 50, 100, 100);\r\n</script>\r\n</body>\r\n</html>\r\n\r\n"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "dataType": "javascript",
+      "bodyData": {
+        "document": {
+          "savedAt": "11/23/2025, 1:38:29 PM",
+          "sources": [
+            {
+              "fileExtension": "html",
+              "filename": "index.html",
+              "content": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n  <meta charset=\"UTF-8\">\r\n  <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js\"></script>\r\n</head>\r\n<body>\r\n<script>\r\n\r\nfunction setup() {\r\n  createCanvas(400, 400);\r\n  background(255);\r\n\r\n  for (let i = 0; i < 20; i++) {\r\n    fill(random(255), random(255), random(255));\r\n\r\n    let x = random(width);\r\n    let y = random(height);\r\n\r\n    if (random(1) < 0.5) {\r\n      circle(x, y, 40);\r\n    } else {\r\n      rect(x, y, 40, 40);\r\n    }\r\n  }\r\n}\r\n\r\nfunction draw() {\r\n  // 何もしない（描いたものを残す）\r\n}\r\n\r\n</script>\r\n</body>\r\n</html>\r\n"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "dataType": "javascript",
+      "bodyData": {
+        "document": {
+          "savedAt": "11/23/2025, 1:44:52 PM",
+          "sources": [
+            {
+              "fileExtension": "html",
+              "filename": "index.html",
+              "content": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n  <meta charset=\"UTF-8\">\r\n  <script src=\"p5.min.js\"></script>\r\n</head>\r\n<body>\r\n<script>\r\n\r\n// ランダム図形\r\nfunction setup(){\r\n  createCanvas(400,400);\r\n  background(255);  //白背景\r\n\r\n  for(let i = 0; i < 30; i = i + 1){ //30回描く\r\n    fill(random(255), random(255), random(255));\r\n\r\n    let x = random(width);\r\n    let y = random(height);\r\n    let s = random(20, 60); //大きさランダム\r\n\r\n    // ランダムで丸か四角\r\n    if(random(1) < 0.5){\r\n      circle(x, y, s);\r\n    }else{\r\n      rect(x, y, s, s);\r\n    }\r\n  }\r\n}\r\n\r\nfunction draw(){\r\n  // 何もしない（描いたまま）\r\n}\r\n\r\n</script>\r\n</body>\r\n</html>\r\n"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "dataType": "javascript",
+      "bodyData": {
+        "document": {
+          "savedAt": "11/23/2025, 1:52:21 PM",
+          "sources": [
+            {
+              "fileExtension": "html",
+              "filename": "index.html",
+              "content": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n  <meta charset=\"UTF-8\">\r\n  <script src=\"p5.min.js\"></script> <!-- 自分で置いた風 -->\r\n</head>\r\n<body>\r\n<script>\r\n\r\n// 図形の練習\r\nfunction setup(){\r\n  createCanvas(400,400);\r\n  background(200,200,255); //うすい水色\r\n\r\n  for(let i=0;i<25;i=i+1){ //25回描く\r\n    fill(random(255),random(255),random(255));\r\n\r\n    let x = random(width);\r\n    let y = random(height);\r\n\r\n    if(random(1)<0.5){\r\n      circle(x,y,40); //丸\r\n    }else{\r\n      rect(x,y,40,40); //四角\r\n    }\r\n  }\r\n}\r\n\r\n// drawは使わない\r\nfunction draw(){\r\n}\r\n\r\n</script>\r\n</body>\r\n</html>\r\n\r\n  }\r\n}\r\n\r\nfunction draw(){\r\n  // 何もしない（描いたまま）\r\n}\r\n\r\n</script>\r\n</body>\r\n</html>\r\n"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "dataType": "javascript",
+      "bodyData": {
+        "document": {
+          "savedAt": "11/23/2025, 1:52:55 PM",
+          "sources": [
+            {
+              "fileExtension": "html",
+              "filename": "index.html",
+              "content": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n  <meta charset=\"UTF-8\">\r\n  <script src=\"p5.min.js\"></script> <!-- 自分で置いた風 -->\r\n</head>\r\n<body>\r\n<script>\r\n\r\n// 図形の練習\r\nfunction setup(){\r\n  createCanvas(400,400);\r\n  background(200,200,255); //うすい水色\r\n\r\n  for(let i=0;i<25;i=i+1){ //25回描く\r\n    fill(random(255),random(255),random(255));\r\n\r\n    let x = random(width);\r\n    let y = random(height);\r\n\r\n    if(random(1)<0.5){\r\n      circle(x,y,40); //丸\r\n    }else{\r\n      rect(x,y,40,40); //四角\r\n    }\r\n  }\r\n}\r\n\r\n// drawは使わない\r\nfunction draw(){\r\n}\r\n\r\n</script>\r\n</body>\r\n</html>\r\n\r\n  }\r\n}\r\n\r\n}\r\n\r\n</script>\r\n</body>\r\n</html>\r\n"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "dataType": "javascript",
+      "bodyData": {
+        "document": {
+          "savedAt": "11/23/2025, 1:53:30 PM",
+          "sources": [
+            {
+              "fileExtension": "html",
+              "filename": "index.html",
+              "content": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n  <meta charset=\"UTF-8\">\r\n  <script src=\"p5.min.js\"></script> <!-- 自分で置いた風 -->\r\n</head>\r\n<body>\r\n<script>\r\n\r\n// 図形の練習\r\nfunction setup(){\r\n  createCanvas(400,400);\r\n  background(200,200,255); //うすい水色\r\n\r\n  for(let i=0;i<25;i=i+1){ //25回描く\r\n    fill(random(255),random(255),random(255));\r\n\r\n    let x = random(width);\r\n    let y = random(height);\r\n\r\n    if(random(1)<0.5){\r\n      circle(x,y,40); //丸\r\n    }else{\r\n      rect(x,y,40,40); //四角\r\n    }\r\n  }\r\n}\r\n\r\n// drawは使わない\r\nfunction draw(){\r\n}\r\n\r\n</script>\r\n</body>\r\n</html>\r\n\r\n  \r\n\r\n</script>\r\n</body>\r\n</html>\r\n"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "dataType": "javascript",
+      "bodyData": {
+        "document": {
+          "savedAt": "11/23/2025, 1:54:41 PM",
+          "sources": [
+            {
+              "fileExtension": "html",
+              "filename": "index.html",
+              "content": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n  <meta charset=\"UTF-8\">\r\n  <script src=\"p5.min.js\"></script>\r\n</head>\r\n<body>\r\n<script>\r\n\r\n// ランダム図形\r\nfunction setup(){\r\n  createCanvas(400,400);\r\n  background(255);  //白背景\r\n\r\n  for(let i = 0; i < 30; i = i + 1){ //30回描く\r\n    fill(random(255), random(255), random(255));\r\n\r\n    let x = random(width);\r\n    let y = random(height);\r\n    let s = random(20, 60); //大きさランダム\r\n\r\n    // ランダムで丸か四角\r\n    if(random(1) < 0.5){\r\n      circle(x, y, s);\r\n    }else{\r\n      rect(x, y, s, s);\r\n    }\r\n  }\r\n}\r\n\r\nfunction draw(){\r\n  // 何もしない（描いたまま）\r\n}\r\n\r\n</script>\r\n</body>\r\n</html>\r\n"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "dataType": "javascript",
+      "bodyData": {
+        "document": {
+          "savedAt": "11/23/2025, 1:56:10 PM",
+          "sources": [
+            {
+              "fileExtension": "html",
+              "filename": "index.html",
+              "content": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n  <meta charset=\"UTF-8\">\r\n  <script src=\"p5.min.js\"></script> <!-- 自分で置いた風 -->\r\n</head>\r\n<body>\r\n<script>\r\n\r\n// 図形の練習\r\nfunction setup(){\r\n  createCanvas(400,400);\r\n  background(200,200,255); //うすい水色\r\n\r\n  for(let i=0;i<25;i=i+1){ //25回描く\r\n    fill(random(255),random(255),random(255));\r\n\r\n    let x = random(width);\r\n    let y = random(height);\r\n\r\n    if(random(1)<0.5){\r\n      circle(x,y,40); //丸\r\n    }else{\r\n      rect(x,y,40,40); //四角\r\n    }\r\n  }\r\n}\r\n\r\n// drawは使わない\r\nfunction draw(){\r\n}\r\n\r\n</script>\r\n</body>\r\n</html>\r\n"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "dataType": "javascript",
+      "bodyData": {
+        "document": {
+          "savedAt": "11/23/2025, 1:57:43 PM",
+          "sources": [
+            {
+              "fileExtension": "html",
+              "filename": "index.html",
+              "content": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n  <meta charset=\"UTF-8\">\r\n  <script src=\"p5.min.js\"></script>\r\n</head>\r\n<body>\r\n<script>\r\n\r\n// ランダム図形\r\nfunction setup(){\r\n  createCanvas(400,400);\r\n  background(255);  //白背景\r\n\r\n  for(let i = 0; i < 30; i = i + 1){ //30回描く\r\n    fill(random(255), random(255), random(255));\r\n\r\n    let x = random(width);\r\n    let y = random(height);\r\n    let s = random(20, 60); //大きさランダム\r\n\r\n    // ランダムで丸か四角\r\n    if(random(1) < 0.5){\r\n      circle(x, y, s);\r\n    }else{\r\n      rect(x, y, s, s);\r\n    }\r\n  }\r\n}\r\n\r\nfunction draw(){\r\n  // 何もしない（描いたまま）\r\n}\r\n\r\n</script>\r\n</body>\r\n</html>\r\n\r\n"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "dataType": "javascript",
+      "bodyData": {
+        "document": {
+          "savedAt": "11/23/2025, 1:59:29 PM",
+          "sources": [
+            {
+              "fileExtension": "html",
+              "filename": "index.html",
+              "content": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n  <meta charset=\"UTF-8\">\r\n  <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js\"></script>\r\n</head>\r\n<body>\r\n<script>\r\n\r\n// ランダム図形\r\nfunction setup(){\r\n  createCanvas(400,400);\r\n  background(255);  //白\r\n\r\n  for(let i=0; i<30; i=i+1){ //30回描く\r\n    fill(random(255), random(255), random(255));\r\n\r\n    let x = random(width);\r\n    let y = random(height);\r\n    let s = random(20,60); //大きさランダム\r\n\r\n    if(random(1) < 0.5){\r\n      circle(x, y, s); //丸\r\n    }else{\r\n      rect(x, y, s, s); //四角\r\n    }\r\n  }\r\n}\r\n\r\nfunction draw(){}\r\n\r\n</script>\r\n</body>\r\n</html>\r\n"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "dataType": "javascript",
+      "bodyData": {
+        "document": {
+          "savedAt": "11/23/2025, 2:00:10 PM",
+          "sources": [
+            {
+              "fileExtension": "html",
+              "filename": "index.html",
+              "content": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n  <meta charset=\"UTF-8\">\r\n  <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js\"></script>\r\n</head>\r\n<body>\r\n<script>\r\n\r\n// ランダム図形\r\nfunction setup(){\r\n  createCanvas(400,400);\r\n  background(255);  //白\r\n\r\n  for(let i=0; i<30; i=i+1){ //30回描く\r\n    fill(random(255), random(255), random(255));\r\n\r\n    let x = random(width);\r\n    let y = random(height);\r\n    let s = random(20,60); //大きさランダム\r\n\r\n    if(random(1) < 0.5){\r\n      circle(x, y, s); //丸\r\n    }else{\r\n      rect(x, y, s, s); //四角\r\n    }\r\n  }\r\n}\r\n\r\nfunction draw(){}\r\n\r\n</script>\r\n</body>\r\n</html>\r\n"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

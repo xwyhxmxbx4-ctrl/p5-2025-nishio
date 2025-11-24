@@ -1,8 +1,25 @@
 // 小手調べ
-function setup(){
-  createCanvas(100, 100);
-  noFill();
-  for(let i = 0; i < 10; i++){
-    // BLANK[1] 条件分岐を使って、前半は赤、後半は青で円を描こう
-  }
-}
+<!DOCTYPE html>
+<html>
+<body>
+<canvas id="c" width="400" height="400"></canvas>
+<script>
+  let ctx = document.getElementById("c").getContext("2d");
+  ctx.fillStyle = "black";
+  ctx.fillRect(50, 50, 100, 100);
+</script>
+</body>
+</html>
+
+  
+
+
+
+
+
+
+
+
+
+
+)
